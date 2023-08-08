@@ -8,7 +8,7 @@ Flask application that lists movies to recommend.
 
 ![Main page back](https://github.com/LuisBML/flask-movie-recommendation/blob/23a9b1668e04ce264dd7a224e11d028e43e39ab5/app_images/main_back.jpeg)
 
-- Before adding a movie, you can search for it. This data is obtained from an API
+- Before adding a movie, you have to search for it and select the one you are looking for. This data is obtained from an API (as well as the poster, the year, etc.).
 ![Select page](https://github.com/LuisBML/flask-movie-recommendation/blob/23a9b1668e04ce264dd7a224e11d028e43e39ab5/app_images/select.jpeg)
 
 ![Edit page](https://github.com/LuisBML/flask-movie-recommendation/blob/23a9b1668e04ce264dd7a224e11d028e43e39ab5/app_images/edit.jpeg)
