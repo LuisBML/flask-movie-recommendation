@@ -1,0 +1,14 @@
+{% extends 'base.html' %} {% block title %}Select Movie{% endblock %} {% block
+content %}
+<div class="container">
+  <h1 class="heading">Select Movie</h1>
+  {% for current_movie in all_movies %}
+  <p>
+    <a href="{{ url_for('add_movie', movie_api_id=current_movie['id']) }}">
+      {{current_movie["original_title"]}} -
+      {{current_movie["release_date"].split("-")[0]}}</a
+    >
+  </p>
+  {% endfor %}
+</div>
+{% endblock %}
